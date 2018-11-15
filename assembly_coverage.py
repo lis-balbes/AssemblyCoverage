@@ -11,7 +11,6 @@ def parse_header(header):
     return int(h[3]), float(h[5])
 
 
-
 file_name = sys.argv[1]
 if file_name == '':
     print("Usage: python assembly_coverage.py <filename>")
